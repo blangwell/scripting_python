@@ -29,21 +29,11 @@ squad_713 = [
     'Taylor'
 ]
 
-# ITERATE THRU SQUAD LIST 
-# for name in squad_713:
-#   print(name)
 
-# def get_names(list):
-#   for name in list:
-
-
-# CREATE FILE WITH PYTHON
+# DONE create file
 ga_file = open('general_assembly.txt', 'r+')
-# print(ga_file.readlines())
+# DONE iterate thru squad list
 for name in squad_713:
+  # DONE write each person to a file on a new line
   ga_file.write(f'{name} \n')
 ga_file.close()
-
-# WRITE EACH PERSON TO A FILE
-
-# PUT EACH PERSON ON A NEW LINE
